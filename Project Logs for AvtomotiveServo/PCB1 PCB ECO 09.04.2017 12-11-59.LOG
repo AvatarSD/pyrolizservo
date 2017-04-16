@@ -1,0 +1,37 @@
+Added Component: Designator=LD1(LED_5MM_GREEN_1C-2A)
+Add component. Clean all parameters for all variants
+Added Component: Designator=LD2(LED_VISHAY_TSAL6200)
+Add component. Clean all parameters for all variants
+Added Component: Designator=LD3(LED_5MM_RED_1C-2A)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R18(RESC3116X65N)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R19(RESC3116X65N)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R20(RESC3116X65N)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=DGND Pin=LD1-1
+Added Pin To Net: NetName=DGND Pin=LD2-1
+Added Pin To Net: NetName=DGND Pin=LD3-1
+Added Pin To Net: NetName=+5v Pin=R18-1
+Added Pin To Net: NetName=NetLD1_2 Pin=LD1-2
+Added Pin To Net: NetName=NetLD1_2 Pin=R18-2
+Added Net: Name=NetLD1_2
+Added Pin To Net: NetName=NetLD2_2 Pin=LD2-2
+Added Pin To Net: NetName=NetLD2_2 Pin=R19-2
+Added Net: Name=NetLD2_2
+Added Pin To Net: NetName=NetLD3_2 Pin=LD3-2
+Added Pin To Net: NetName=NetLD3_2 Pin=R20-2
+Added Net: Name=NetLD3_2
+Added Pin To Net: NetName=NetR19_1 Pin=R19-1
+Added Pin To Net: NetName=NetR19_1 Pin=U1-31
+Added Net: Name=NetR19_1
+Added Pin To Net: NetName=NetR20_1 Pin=R20-1
+Added Pin To Net: NetName=NetR20_1 Pin=U1-1
+Added Net: Name=NetR20_1
+Added Member To Class: ClassName=Sheet1 Member=Component LD1 Color
+Added Member To Class: ClassName=Sheet1 Member=Component LD2 Color
+Added Member To Class: ClassName=Sheet1 Member=Component LD3 Color
+Added Member To Class: ClassName=Sheet1 Member=Component R18 1k
+Added Member To Class: ClassName=Sheet1 Member=Component R19 1k
+Added Member To Class: ClassName=Sheet1 Member=Component R20 1k

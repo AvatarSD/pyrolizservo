@@ -1,0 +1,33 @@
+Bill of Material for 
+On 09.04.2017 at 19:56:11
+
+ Comment             Pattern     Quantity  Components
+------------------------------------------------------------------------------
+ 0.1                 0402            16    C1, C2, C3, C4, C5, C6, C7   Non-polarised capacitor 
+                                           C8, C9, C12, C15, C16, C17
+                                           C18, C19, C20
+ 10A10               10A10            1    D1                           Diode                
+ 10k                 RESC3116X65N     2    R10, R17                     Resistor             
+ 10v 1000µ           CAPPR350W80D850H1300    1    C11                          Polarised capacitor  
+ 1k                  RES1016-650X250    6    R1, R5, R6, R7, R12, R13     Resistor             
+ 1k                  RESC3116X65N    10    R2, R4, R8, R11, R14, R15    Resistor             
+                                           R16, R18, R19, R20
+ 22p                 0402             2    C13, C14                     Non-polarised capacitor 
+ 25v 4700µ           Cap25v4700mkf    1    C10                          Polarised capacitor  
+ 510om               RES1016-650X250    2    R3, R9                       Resistor             
+ 8Mhz                XTAL_HC-49/U     1    Q1                           Quartz Crystal       
+ Angle Sensor        MOLEX_22-05-7038    1    J4                           Connector 3 Male     
+ ATmega168PA-AU      32A_M            1    U1                           8-bit AVR Microcontroller, 16KB Flash, 512 Bytes EEPROM, 1KB SRAM, 32-pin TQFP, Industrial Grade (-40°C to 85°C) 
+ Color               LED_5MM_GREEN_1C-2A    1    LD1                          LED Green 1C 2A      
+ Color               LED_5MM_RED_1C-2A    1    LD3                          LED Red 1C 2A        
+ Color               LED_VISHAY_TSAL6200    1    LD2                          LED Blue 1C 2A       
+ Device              DCDC_TRACO_TME24    1    IC1                          1kV Isolated 3W Single Output DC-DC Converter 
+ Device              DIOMELF3515N     2    D6, D7                       Diode                
+ FL817               DIP-4            5    IC2, IC3, IC4, IC5, IC6      Single Optocoupler   
+ FR307               DO-27            4    D2, D3, D4, D5               Diode                
+ Input Signal        MOLEX_22-05-7028    1    J5                           Connector 2 Male     
+ IRFR5305            TO228P991X239-3N-R546X521    2    T1, T3                       P-CHANNEL MOSFET WITH ZENER DIODE 
+ IRLR2905            TO228P991X239-3N-R546X521    2    T2, T4                       N-CHANNEL MOSFET WITH ZENER DIODE 
+ ISP Prog            COMATEL_389.0358.1.06.400    1    J3                           Connector 6 Male     
+ Main Power          PwrCon           1    J1                                                
+ Motor               PwrCon           1    J2                           Connector 2 Female   

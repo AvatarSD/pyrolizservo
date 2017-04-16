@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="AvtomotiveServo"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/sd/projects/AvtomotiveServo/prog/build-src-AVR-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/WINPRO~1/Atmel/Studio/7.0/TOOLCH~1/avr8/AVR8-G~1/bin/make.exe -f &quot;C:/Users/sd/projects/AvtomotiveServo/prog/build-src-AVR-release/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/WINPRO~1/Atmel/Studio/7.0/TOOLCH~1/avr8/AVR8-G~1/bin/make.exe -f &quot;C:/Users/sd/projects/AvtomotiveServo/prog/build-src-AVR-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/WINPRO~1/Atmel/Studio/7.0/TOOLCH~1/avr8/AVR8-G~1/bin/make.exe -f &quot;C:/Users/sd/projects/AvtomotiveServo/prog/build-src-AVR-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/WINPRO~1/Atmel/Studio/7.0/TOOLCH~1/avr8/AVR8-G~1/bin/make.exe -f &quot;C:/Users/sd/projects/AvtomotiveServo/prog/build-src-AVR-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="AvtomotiveServo">
+				<Option output="C:/Users/sd/projects/AvtomotiveServo/prog/build-src-AVR-release/AvtomotiveServo" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/sd/projects/AvtomotiveServo/prog/build-src-AVR-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/sd/projects/AvtomotiveServo/prog/src/inc"/>
+					<Add directory="d:\win programs\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\bin\../lib/gcc/avr/5.4.0/include"/>
+					<Add directory="d:\win programs\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\bin\../lib/gcc/avr/5.4.0/include-fixed"/>
+					<Add directory="d:\win programs\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\bin\../lib/gcc/avr/5.4.0/../../../../avr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/WINPRO~1/Atmel/Studio/7.0/TOOLCH~1/avr8/AVR8-G~1/bin/make.exe -f &quot;C:/Users/sd/projects/AvtomotiveServo/prog/build-src-AVR-release/Makefile&quot;  VERBOSE=1 AvtomotiveServo"/>
+					<CompileFile command="D:/WINPRO~1/Atmel/Studio/7.0/TOOLCH~1/avr8/AVR8-G~1/bin/make.exe -f &quot;C:/Users/sd/projects/AvtomotiveServo/prog/build-src-AVR-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/WINPRO~1/Atmel/Studio/7.0/TOOLCH~1/avr8/AVR8-G~1/bin/make.exe -f &quot;C:/Users/sd/projects/AvtomotiveServo/prog/build-src-AVR-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/WINPRO~1/Atmel/Studio/7.0/TOOLCH~1/avr8/AVR8-G~1/bin/make.exe -f &quot;C:/Users/sd/projects/AvtomotiveServo/prog/build-src-AVR-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="AvtomotiveServo/fast">
+				<Option output="C:/Users/sd/projects/AvtomotiveServo/prog/build-src-AVR-release/AvtomotiveServo" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/sd/projects/AvtomotiveServo/prog/build-src-AVR-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/sd/projects/AvtomotiveServo/prog/src/inc"/>
+					<Add directory="d:\win programs\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\bin\../lib/gcc/avr/5.4.0/include"/>
+					<Add directory="d:\win programs\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\bin\../lib/gcc/avr/5.4.0/include-fixed"/>
+					<Add directory="d:\win programs\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\bin\../lib/gcc/avr/5.4.0/../../../../avr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/WINPRO~1/Atmel/Studio/7.0/TOOLCH~1/avr8/AVR8-G~1/bin/make.exe -f &quot;C:/Users/sd/projects/AvtomotiveServo/prog/build-src-AVR-release/Makefile&quot;  VERBOSE=1 AvtomotiveServo/fast"/>
+					<CompileFile command="D:/WINPRO~1/Atmel/Studio/7.0/TOOLCH~1/avr8/AVR8-G~1/bin/make.exe -f &quot;C:/Users/sd/projects/AvtomotiveServo/prog/build-src-AVR-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/WINPRO~1/Atmel/Studio/7.0/TOOLCH~1/avr8/AVR8-G~1/bin/make.exe -f &quot;C:/Users/sd/projects/AvtomotiveServo/prog/build-src-AVR-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/WINPRO~1/Atmel/Studio/7.0/TOOLCH~1/avr8/AVR8-G~1/bin/make.exe -f &quot;C:/Users/sd/projects/AvtomotiveServo/prog/build-src-AVR-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/sd/projects/AvtomotiveServo/prog/build-src-AVR-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/WINPRO~1/Atmel/Studio/7.0/TOOLCH~1/avr8/AVR8-G~1/bin/make.exe -f &quot;C:/Users/sd/projects/AvtomotiveServo/prog/build-src-AVR-release/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/WINPRO~1/Atmel/Studio/7.0/TOOLCH~1/avr8/AVR8-G~1/bin/make.exe -f &quot;C:/Users/sd/projects/AvtomotiveServo/prog/build-src-AVR-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/WINPRO~1/Atmel/Studio/7.0/TOOLCH~1/avr8/AVR8-G~1/bin/make.exe -f &quot;C:/Users/sd/projects/AvtomotiveServo/prog/build-src-AVR-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/WINPRO~1/Atmel/Studio/7.0/TOOLCH~1/avr8/AVR8-G~1/bin/make.exe -f &quot;C:/Users/sd/projects/AvtomotiveServo/prog/build-src-AVR-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/sd/projects/AvtomotiveServo/prog/build-src-AVR-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/WINPRO~1/Atmel/Studio/7.0/TOOLCH~1/avr8/AVR8-G~1/bin/make.exe -f &quot;C:/Users/sd/projects/AvtomotiveServo/prog/build-src-AVR-release/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/WINPRO~1/Atmel/Studio/7.0/TOOLCH~1/avr8/AVR8-G~1/bin/make.exe -f &quot;C:/Users/sd/projects/AvtomotiveServo/prog/build-src-AVR-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/WINPRO~1/Atmel/Studio/7.0/TOOLCH~1/avr8/AVR8-G~1/bin/make.exe -f &quot;C:/Users/sd/projects/AvtomotiveServo/prog/build-src-AVR-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/WINPRO~1/Atmel/Studio/7.0/TOOLCH~1/avr8/AVR8-G~1/bin/make.exe -f &quot;C:/Users/sd/projects/AvtomotiveServo/prog/build-src-AVR-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/sd/projects/AvtomotiveServo/prog/src/src/adc.c">
+			<Option target="AvtomotiveServo"/>
+		</Unit>
+		<Unit filename="C:/Users/sd/projects/AvtomotiveServo/prog/src/src/avtserv.c">
+			<Option target="AvtomotiveServo"/>
+		</Unit>
+		<Unit filename="C:/Users/sd/projects/AvtomotiveServo/prog/src/src/input.c">
+			<Option target="AvtomotiveServo"/>
+		</Unit>
+		<Unit filename="C:/Users/sd/projects/AvtomotiveServo/prog/src/src/leds.c">
+			<Option target="AvtomotiveServo"/>
+		</Unit>
+		<Unit filename="C:/Users/sd/projects/AvtomotiveServo/prog/src/src/motor.c">
+			<Option target="AvtomotiveServo"/>
+		</Unit>
+		<Unit filename="C:/Users/sd/projects/AvtomotiveServo/prog/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

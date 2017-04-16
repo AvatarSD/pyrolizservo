@@ -1,0 +1,577 @@
+The target system is: Generic -  - 
+The host system is: Windows - 10.0.14393 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: D:/Win Programs/Atmel/Studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/avr-gcc.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "C:/Users/sd/projects/AvtomotiveServo/prog/build-src-AVR-release/CMakeFiles/3.8.0/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: D:/Win Programs/Atmel/Studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/avr-g++.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "C:/Users/sd/projects/AvtomotiveServo/prog/build-src-AVR-release/CMakeFiles/3.8.0/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: C:/Users/sd/projects/AvtomotiveServo/prog/build-src-AVR-release/CMakeFiles/CMakeTmp
+
+Run Build Command:"D:/WINPRO~1/Atmel/Studio/7.0/TOOLCH~1/avr8/AVR8-G~1/bin/make.exe" "cmTC_d592b/fast"
+D:/WINPRO~1/Atmel/Studio/7.0/TOOLCH~1/avr8/AVR8-G~1/bin/make.exe -f CMakeFiles\cmTC_d592b.dir\build.make CMakeFiles/cmTC_d592b.dir/build
+make.exe[1]: Entering directory 'C:/Users/sd/projects/AvtomotiveServo/prog/build-src-AVR-release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d592b.dir/testCCompiler.c.obj
+D:\WINPRO~1\Atmel\Studio\7.0\TOOLCH~1\avr8\AVR8-G~1\bin\avr-gcc.exe    -o CMakeFiles\cmTC_d592b.dir\testCCompiler.c.obj   -c C:\Users\sd\projects\AvtomotiveServo\prog\build-src-AVR-release\CMakeFiles\CMakeTmp\testCCompiler.c
+Linking C executable cmTC_d592b
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_d592b.dir\link.txt --verbose=1
+D:\WINPRO~1\Atmel\Studio\7.0\TOOLCH~1\avr8\AVR8-G~1\bin\avr-gcc.exe      CMakeFiles/cmTC_d592b.dir/testCCompiler.c.obj  -o cmTC_d592b 
+make.exe[1]: Leaving directory 'C:/Users/sd/projects/AvtomotiveServo/prog/build-src-AVR-release/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: C:/Users/sd/projects/AvtomotiveServo/prog/build-src-AVR-release/CMakeFiles/CMakeTmp
+
+Run Build Command:"D:/WINPRO~1/Atmel/Studio/7.0/TOOLCH~1/avr8/AVR8-G~1/bin/make.exe" "cmTC_06a3b/fast"
+D:/WINPRO~1/Atmel/Studio/7.0/TOOLCH~1/avr8/AVR8-G~1/bin/make.exe -f CMakeFiles\cmTC_06a3b.dir\build.make CMakeFiles/cmTC_06a3b.dir/build
+make.exe[1]: Entering directory 'C:/Users/sd/projects/AvtomotiveServo/prog/build-src-AVR-release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_06a3b.dir/CMakeCCompilerABI.c.obj
+D:\WINPRO~1\Atmel\Studio\7.0\TOOLCH~1\avr8\AVR8-G~1\bin\avr-gcc.exe    -o CMakeFiles\cmTC_06a3b.dir\CMakeCCompilerABI.c.obj   -c "C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeCCompilerABI.c"
+Linking C executable cmTC_06a3b
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_06a3b.dir\link.txt --verbose=1
+D:\WINPRO~1\Atmel\Studio\7.0\TOOLCH~1\avr8\AVR8-G~1\bin\avr-gcc.exe     -v CMakeFiles/cmTC_06a3b.dir/CMakeCCompilerABI.c.obj  -o cmTC_06a3b 
+Using built-in specs.
+Reading specs from d:/winpro~1/atmel/studio/7.0/toolch~1/avr8/avr8-g~1/bin/../lib/gcc/avr/5.4.0/device-specs/specs-avr2
+COLLECT_GCC=D:\WINPRO~1\Atmel\Studio\7.0\TOOLCH~1\avr8\AVR8-G~1\bin\avr-gcc.exe
+COLLECT_LTO_WRAPPER=d:/winpro~1/atmel/studio/7.0/toolch~1/avr8/avr8-g~1/bin/../libexec/gcc/avr/5.4.0/lto-wrapper.exe
+Target: avr
+Configured with: /home/toolsbuild/workspace/avr8-gnu-toolchain/src/gcc/configure LDFLAGS=-L/home/toolsbuild/workspace/avr8-gnu-toolchain/avr8-gnu-toolchain-win32_x86-hostlibs/lib CPPFLAGS= --target=avr --host=i686-w64-mingw32 --build=x86_64-pc-linux-gnu --prefix=/home/toolsbuild/workspace/avr8-gnu-toolchain/avr8-gnu-toolchain-win32_x86 --libdir=/home/toolsbuild/workspace/avr8-gnu-toolchain/avr8-gnu-toolchain-win32_x86/lib --enable-languages=c,c++ --with-dwarf2 --enable-doc --disable-shared --disable-libada --disable-libssp --disable-nls --with-avrlibc=yes --with-mpfr=/home/toolsbuild/workspace/avr8-gnu-toolchain/avr8-gnu-toolchain-win32_x86-hostlibs --with-gmp=/home/toolsbuild/workspace/avr8-gnu-toolchain/avr8-gnu-toolchain-win32_x86-hostlibs --with-mpc=/home/toolsbuild/workspace/avr8-gnu-toolchain/avr8-gnu-toolchain-win32_x86-hostlibs --enable-win32-registry=avrtoolchain --with-pkgversion=AVR_8_bit_GNU_Toolchain_3.6.0_1734 --with-bugurl=http://www.atmel.com
+Thread model: single
+gcc version 5.4.0 (AVR_8_bit_GNU_Toolchain_3.6.0_1734) 
+COMPILER_PATH=d:/winpro~1/atmel/studio/7.0/toolch~1/avr8/avr8-g~1/bin/../libexec/gcc/avr/5.4.0/;d:/winpro~1/atmel/studio/7.0/toolch~1/avr8/avr8-g~1/bin/../libexec/gcc/;d:/winpro~1/atmel/studio/7.0/toolch~1/avr8/avr8-g~1/bin/../lib/gcc/avr/5.4.0/../../../../avr/bin/
+LIBRARY_PATH=d:/winpro~1/atmel/studio/7.0/toolch~1/avr8/avr8-g~1/bin/../lib/gcc/avr/5.4.0/;d:/winpro~1/atmel/studio/7.0/toolch~1/avr8/avr8-g~1/bin/../lib/gcc/;d:/winpro~1/atmel/studio/7.0/toolch~1/avr8/avr8-g~1/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_06a3b' '-specs=device-specs/specs-avr2'
+ d:/winpro~1/atmel/studio/7.0/toolch~1/avr8/avr8-g~1/bin/../libexec/gcc/avr/5.4.0/collect2.exe -plugin d:/winpro~1/atmel/studio/7.0/toolch~1/avr8/avr8-g~1/bin/../libexec/gcc/avr/5.4.0/liblto_plugin-0.dll -plugin-opt=d:/winpro~1/atmel/studio/7.0/toolch~1/avr8/avr8-g~1/bin/../libexec/gcc/avr/5.4.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\sd\AppData\Local\Temp\cc0E5zS9.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lm -plugin-opt=-pass-through=-lc --pmem-wrap-around=8k -o cmTC_06a3b -Ld:/winpro~1/atmel/studio/7.0/toolch~1/avr8/avr8-g~1/bin/../lib/gcc/avr/5.4.0 -Ld:/winpro~1/atmel/studio/7.0/toolch~1/avr8/avr8-g~1/bin/../lib/gcc -Ld:/winpro~1/atmel/studio/7.0/toolch~1/avr8/avr8-g~1/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib CMakeFiles/cmTC_06a3b.dir/CMakeCCompilerABI.c.obj --start-group -lgcc -lm -lc --end-group
+make.exe[1]: Leaving directory 'C:/Users/sd/projects/AvtomotiveServo/prog/build-src-AVR-release/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(avr-ld\.exe|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: C:/Users/sd/projects/AvtomotiveServo/prog/build-src-AVR-release/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"D:/WINPRO~1/Atmel/Studio/7.0/TOOLCH~1/avr8/AVR8-G~1/bin/make.exe" "cmTC_06a3b/fast"]
+  ignore line: [D:/WINPRO~1/Atmel/Studio/7.0/TOOLCH~1/avr8/AVR8-G~1/bin/make.exe -f CMakeFiles\cmTC_06a3b.dir\build.make CMakeFiles/cmTC_06a3b.dir/build]
+  ignore line: [make.exe[1]: Entering directory 'C:/Users/sd/projects/AvtomotiveServo/prog/build-src-AVR-release/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_06a3b.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [D:\WINPRO~1\Atmel\Studio\7.0\TOOLCH~1\avr8\AVR8-G~1\bin\avr-gcc.exe    -o CMakeFiles\cmTC_06a3b.dir\CMakeCCompilerABI.c.obj   -c "C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeCCompilerABI.c"]
+  ignore line: [Linking C executable cmTC_06a3b]
+  ignore line: ["C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_06a3b.dir\link.txt --verbose=1]
+  ignore line: [D:\WINPRO~1\Atmel\Studio\7.0\TOOLCH~1\avr8\AVR8-G~1\bin\avr-gcc.exe     -v CMakeFiles/cmTC_06a3b.dir/CMakeCCompilerABI.c.obj  -o cmTC_06a3b ]
+  ignore line: [Using built-in specs.]
+  ignore line: [Reading specs from d:/winpro~1/atmel/studio/7.0/toolch~1/avr8/avr8-g~1/bin/../lib/gcc/avr/5.4.0/device-specs/specs-avr2]
+  ignore line: [COLLECT_GCC=D:\WINPRO~1\Atmel\Studio\7.0\TOOLCH~1\avr8\AVR8-G~1\bin\avr-gcc.exe]
+  ignore line: [COLLECT_LTO_WRAPPER=d:/winpro~1/atmel/studio/7.0/toolch~1/avr8/avr8-g~1/bin/../libexec/gcc/avr/5.4.0/lto-wrapper.exe]
+  ignore line: [Target: avr]
+  ignore line: [Configured with: /home/toolsbuild/workspace/avr8-gnu-toolchain/src/gcc/configure LDFLAGS=-L/home/toolsbuild/workspace/avr8-gnu-toolchain/avr8-gnu-toolchain-win32_x86-hostlibs/lib CPPFLAGS= --target=avr --host=i686-w64-mingw32 --build=x86_64-pc-linux-gnu --prefix=/home/toolsbuild/workspace/avr8-gnu-toolchain/avr8-gnu-toolchain-win32_x86 --libdir=/home/toolsbuild/workspace/avr8-gnu-toolchain/avr8-gnu-toolchain-win32_x86/lib --enable-languages=c,c++ --with-dwarf2 --enable-doc --disable-shared --disable-libada --disable-libssp --disable-nls --with-avrlibc=yes --with-mpfr=/home/toolsbuild/workspace/avr8-gnu-toolchain/avr8-gnu-toolchain-win32_x86-hostlibs --with-gmp=/home/toolsbuild/workspace/avr8-gnu-toolchain/avr8-gnu-toolchain-win32_x86-hostlibs --with-mpc=/home/toolsbuild/workspace/avr8-gnu-toolchain/avr8-gnu-toolchain-win32_x86-hostlibs --enable-win32-registry=avrtoolchain --with-pkgversion=AVR_8_bit_GNU_Toolchain_3.6.0_1734 --with-bugurl=http://www.atmel.com]
+  ignore line: [Thread model: single]
+  ignore line: [gcc version 5.4.0 (AVR_8_bit_GNU_Toolchain_3.6.0_1734) ]
+  ignore line: [COMPILER_PATH=d:/winpro~1/atmel/studio/7.0/toolch~1/avr8/avr8-g~1/bin/../libexec/gcc/avr/5.4.0/]
+  ignore line: [d:/winpro~1/atmel/studio/7.0/toolch~1/avr8/avr8-g~1/bin/../libexec/gcc/]
+  ignore line: [d:/winpro~1/atmel/studio/7.0/toolch~1/avr8/avr8-g~1/bin/../lib/gcc/avr/5.4.0/../../../../avr/bin/]
+  ignore line: [LIBRARY_PATH=d:/winpro~1/atmel/studio/7.0/toolch~1/avr8/avr8-g~1/bin/../lib/gcc/avr/5.4.0/]
+  ignore line: [d:/winpro~1/atmel/studio/7.0/toolch~1/avr8/avr8-g~1/bin/../lib/gcc/]
+  ignore line: [d:/winpro~1/atmel/studio/7.0/toolch~1/avr8/avr8-g~1/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_06a3b' '-specs=device-specs/specs-avr2']
+  link line: [ d:/winpro~1/atmel/studio/7.0/toolch~1/avr8/avr8-g~1/bin/../libexec/gcc/avr/5.4.0/collect2.exe -plugin d:/winpro~1/atmel/studio/7.0/toolch~1/avr8/avr8-g~1/bin/../libexec/gcc/avr/5.4.0/liblto_plugin-0.dll -plugin-opt=d:/winpro~1/atmel/studio/7.0/toolch~1/avr8/avr8-g~1/bin/../libexec/gcc/avr/5.4.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\sd\AppData\Local\Temp\cc0E5zS9.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lm -plugin-opt=-pass-through=-lc --pmem-wrap-around=8k -o cmTC_06a3b -Ld:/winpro~1/atmel/studio/7.0/toolch~1/avr8/avr8-g~1/bin/../lib/gcc/avr/5.4.0 -Ld:/winpro~1/atmel/studio/7.0/toolch~1/avr8/avr8-g~1/bin/../lib/gcc -Ld:/winpro~1/atmel/studio/7.0/toolch~1/avr8/avr8-g~1/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib CMakeFiles/cmTC_06a3b.dir/CMakeCCompilerABI.c.obj --start-group -lgcc -lm -lc --end-group]
+    arg [d:/winpro~1/atmel/studio/7.0/toolch~1/avr8/avr8-g~1/bin/../libexec/gcc/avr/5.4.0/collect2.exe] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [d:/winpro~1/atmel/studio/7.0/toolch~1/avr8/avr8-g~1/bin/../libexec/gcc/avr/5.4.0/liblto_plugin-0.dll] ==> ignore
+    arg [-plugin-opt=d:/winpro~1/atmel/studio/7.0/toolch~1/avr8/avr8-g~1/bin/../libexec/gcc/avr/5.4.0/lto-wrapper.exe] ==> ignore
+    arg [-plugin-opt=-fresolution=C:\Users\sd\AppData\Local\Temp\cc0E5zS9.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lm] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [--pmem-wrap-around=8k] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_06a3b] ==> ignore
+    arg [-Ld:/winpro~1/atmel/studio/7.0/toolch~1/avr8/avr8-g~1/bin/../lib/gcc/avr/5.4.0] ==> dir [d:/winpro~1/atmel/studio/7.0/toolch~1/avr8/avr8-g~1/bin/../lib/gcc/avr/5.4.0]
+    arg [-Ld:/winpro~1/atmel/studio/7.0/toolch~1/avr8/avr8-g~1/bin/../lib/gcc] ==> dir [d:/winpro~1/atmel/studio/7.0/toolch~1/avr8/avr8-g~1/bin/../lib/gcc]
+    arg [-Ld:/winpro~1/atmel/studio/7.0/toolch~1/avr8/avr8-g~1/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib] ==> dir [d:/winpro~1/atmel/studio/7.0/toolch~1/avr8/avr8-g~1/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib]
+    arg [CMakeFiles/cmTC_06a3b.dir/CMakeCCompilerABI.c.obj] ==> ignore
+    arg [--start-group] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lm] ==> lib [m]
+    arg [-lc] ==> lib [c]
+    arg [--end-group] ==> ignore
+  remove lib [gcc]
+  collapse library dir [d:/winpro~1/atmel/studio/7.0/toolch~1/avr8/avr8-g~1/bin/../lib/gcc/avr/5.4.0] ==> [D:/Win Programs/Atmel/Studio/7.0/toolchain/avr8/avr8-gnu-toolchain/lib/gcc/avr/5.4.0]
+  collapse library dir [d:/winpro~1/atmel/studio/7.0/toolch~1/avr8/avr8-g~1/bin/../lib/gcc] ==> [D:/Win Programs/Atmel/Studio/7.0/toolchain/avr8/avr8-gnu-toolchain/lib/gcc]
+  collapse library dir [d:/winpro~1/atmel/studio/7.0/toolch~1/avr8/avr8-g~1/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib] ==> [D:/Win Programs/Atmel/Studio/7.0/toolchain/avr8/avr8-gnu-toolchain/avr/lib]
+  implicit libs: [m;c]
+  implicit dirs: [D:/Win Programs/Atmel/Studio/7.0/toolchain/avr8/avr8-gnu-toolchain/lib/gcc/avr/5.4.0;D:/Win Programs/Atmel/Studio/7.0/toolchain/avr8/avr8-gnu-toolchain/lib/gcc;D:/Win Programs/Atmel/Studio/7.0/toolchain/avr8/avr8-gnu-toolchain/avr/lib]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: C:/Users/sd/projects/AvtomotiveServo/prog/build-src-AVR-release/CMakeFiles/CMakeTmp
+
+Run Build Command:"D:/WINPRO~1/Atmel/Studio/7.0/TOOLCH~1/avr8/AVR8-G~1/bin/make.exe" "cmTC_7c5cf/fast"
+D:/WINPRO~1/Atmel/Studio/7.0/TOOLCH~1/avr8/AVR8-G~1/bin/make.exe -f CMakeFiles\cmTC_7c5cf.dir\build.make CMakeFiles/cmTC_7c5cf.dir/build
+make.exe[1]: Entering directory 'C:/Users/sd/projects/AvtomotiveServo/prog/build-src-AVR-release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7c5cf.dir/feature_tests.c.obj
+D:\WINPRO~1\Atmel\Studio\7.0\TOOLCH~1\avr8\AVR8-G~1\bin\avr-gcc.exe   -std=c11 -o CMakeFiles\cmTC_7c5cf.dir\feature_tests.c.obj   -c C:\Users\sd\projects\AvtomotiveServo\prog\build-src-AVR-release\CMakeFiles\feature_tests.c
+Linking C executable cmTC_7c5cf
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_7c5cf.dir\link.txt --verbose=1
+D:\WINPRO~1\Atmel\Studio\7.0\TOOLCH~1\avr8\AVR8-G~1\bin\avr-gcc.exe      CMakeFiles/cmTC_7c5cf.dir/feature_tests.c.obj  -o cmTC_7c5cf 
+make.exe[1]: Leaving directory 'C:/Users/sd/projects/AvtomotiveServo/prog/build-src-AVR-release/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: C:/Users/sd/projects/AvtomotiveServo/prog/build-src-AVR-release/CMakeFiles/CMakeTmp
+
+Run Build Command:"D:/WINPRO~1/Atmel/Studio/7.0/TOOLCH~1/avr8/AVR8-G~1/bin/make.exe" "cmTC_451d4/fast"
+D:/WINPRO~1/Atmel/Studio/7.0/TOOLCH~1/avr8/AVR8-G~1/bin/make.exe -f CMakeFiles\cmTC_451d4.dir\build.make CMakeFiles/cmTC_451d4.dir/build
+make.exe[1]: Entering directory 'C:/Users/sd/projects/AvtomotiveServo/prog/build-src-AVR-release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_451d4.dir/feature_tests.c.obj
+D:\WINPRO~1\Atmel\Studio\7.0\TOOLCH~1\avr8\AVR8-G~1\bin\avr-gcc.exe   -std=c99 -o CMakeFiles\cmTC_451d4.dir\feature_tests.c.obj   -c C:\Users\sd\projects\AvtomotiveServo\prog\build-src-AVR-release\CMakeFiles\feature_tests.c
+Linking C executable cmTC_451d4
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_451d4.dir\link.txt --verbose=1
+D:\WINPRO~1\Atmel\Studio\7.0\TOOLCH~1\avr8\AVR8-G~1\bin\avr-gcc.exe      CMakeFiles/cmTC_451d4.dir/feature_tests.c.obj  -o cmTC_451d4 
+make.exe[1]: Leaving directory 'C:/Users/sd/projects/AvtomotiveServo/prog/build-src-AVR-release/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: C:/Users/sd/projects/AvtomotiveServo/prog/build-src-AVR-release/CMakeFiles/CMakeTmp
+
+Run Build Command:"D:/WINPRO~1/Atmel/Studio/7.0/TOOLCH~1/avr8/AVR8-G~1/bin/make.exe" "cmTC_8c607/fast"
+D:/WINPRO~1/Atmel/Studio/7.0/TOOLCH~1/avr8/AVR8-G~1/bin/make.exe -f CMakeFiles\cmTC_8c607.dir\build.make CMakeFiles/cmTC_8c607.dir/build
+make.exe[1]: Entering directory 'C:/Users/sd/projects/AvtomotiveServo/prog/build-src-AVR-release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8c607.dir/feature_tests.c.obj
+D:\WINPRO~1\Atmel\Studio\7.0\TOOLCH~1\avr8\AVR8-G~1\bin\avr-gcc.exe   -std=c90 -o CMakeFiles\cmTC_8c607.dir\feature_tests.c.obj   -c C:\Users\sd\projects\AvtomotiveServo\prog\build-src-AVR-release\CMakeFiles\feature_tests.c
+Linking C executable cmTC_8c607
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_8c607.dir\link.txt --verbose=1
+D:\WINPRO~1\Atmel\Studio\7.0\TOOLCH~1\avr8\AVR8-G~1\bin\avr-gcc.exe      CMakeFiles/cmTC_8c607.dir/feature_tests.c.obj  -o cmTC_8c607 
+make.exe[1]: Leaving directory 'C:/Users/sd/projects/AvtomotiveServo/prog/build-src-AVR-release/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Determining if the CXX compiler works passed with the following output:
+Change Dir: C:/Users/sd/projects/AvtomotiveServo/prog/build-src-AVR-release/CMakeFiles/CMakeTmp
+
+Run Build Command:"D:/WINPRO~1/Atmel/Studio/7.0/TOOLCH~1/avr8/AVR8-G~1/bin/make.exe" "cmTC_f8de1/fast"
+D:/WINPRO~1/Atmel/Studio/7.0/TOOLCH~1/avr8/AVR8-G~1/bin/make.exe -f CMakeFiles\cmTC_f8de1.dir\build.make CMakeFiles/cmTC_f8de1.dir/build
+make.exe[1]: Entering directory 'C:/Users/sd/projects/AvtomotiveServo/prog/build-src-AVR-release/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f8de1.dir/testCXXCompiler.cxx.obj
+D:\WINPRO~1\Atmel\Studio\7.0\TOOLCH~1\avr8\AVR8-G~1\bin\AVR-G_~1.EXE     -o CMakeFiles\cmTC_f8de1.dir\testCXXCompiler.cxx.obj -c C:\Users\sd\projects\AvtomotiveServo\prog\build-src-AVR-release\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
+Linking CXX executable cmTC_f8de1
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_f8de1.dir\link.txt --verbose=1
+D:\WINPRO~1\Atmel\Studio\7.0\TOOLCH~1\avr8\AVR8-G~1\bin\AVR-G_~1.EXE       CMakeFiles/cmTC_f8de1.dir/testCXXCompiler.cxx.obj  -o cmTC_f8de1 
+make.exe[1]: Leaving directory 'C:/Users/sd/projects/AvtomotiveServo/prog/build-src-AVR-release/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: C:/Users/sd/projects/AvtomotiveServo/prog/build-src-AVR-release/CMakeFiles/CMakeTmp
+
+Run Build Command:"D:/WINPRO~1/Atmel/Studio/7.0/TOOLCH~1/avr8/AVR8-G~1/bin/make.exe" "cmTC_b9e3c/fast"
+D:/WINPRO~1/Atmel/Studio/7.0/TOOLCH~1/avr8/AVR8-G~1/bin/make.exe -f CMakeFiles\cmTC_b9e3c.dir\build.make CMakeFiles/cmTC_b9e3c.dir/build
+make.exe[1]: Entering directory 'C:/Users/sd/projects/AvtomotiveServo/prog/build-src-AVR-release/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_b9e3c.dir/CMakeCXXCompilerABI.cpp.obj
+D:\WINPRO~1\Atmel\Studio\7.0\TOOLCH~1\avr8\AVR8-G~1\bin\AVR-G_~1.EXE     -o CMakeFiles\cmTC_b9e3c.dir\CMakeCXXCompilerABI.cpp.obj -c "C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeCXXCompilerABI.cpp"
+Linking CXX executable cmTC_b9e3c
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_b9e3c.dir\link.txt --verbose=1
+D:\WINPRO~1\Atmel\Studio\7.0\TOOLCH~1\avr8\AVR8-G~1\bin\AVR-G_~1.EXE      -v CMakeFiles/cmTC_b9e3c.dir/CMakeCXXCompilerABI.cpp.obj  -o cmTC_b9e3c 
+Using built-in specs.
+Reading specs from d:/winpro~1/atmel/studio/7.0/toolch~1/avr8/avr8-g~1/bin/../lib/gcc/avr/5.4.0/device-specs/specs-avr2
+COLLECT_GCC=D:\WINPRO~1\Atmel\Studio\7.0\TOOLCH~1\avr8\AVR8-G~1\bin\AVR-G_~1.EXE
+COLLECT_LTO_WRAPPER=d:/winpro~1/atmel/studio/7.0/toolch~1/avr8/avr8-g~1/bin/../libexec/gcc/avr/5.4.0/lto-wrapper.exe
+Target: avr
+Configured with: /home/toolsbuild/workspace/avr8-gnu-toolchain/src/gcc/configure LDFLAGS=-L/home/toolsbuild/workspace/avr8-gnu-toolchain/avr8-gnu-toolchain-win32_x86-hostlibs/lib CPPFLAGS= --target=avr --host=i686-w64-mingw32 --build=x86_64-pc-linux-gnu --prefix=/home/toolsbuild/workspace/avr8-gnu-toolchain/avr8-gnu-toolchain-win32_x86 --libdir=/home/toolsbuild/workspace/avr8-gnu-toolchain/avr8-gnu-toolchain-win32_x86/lib --enable-languages=c,c++ --with-dwarf2 --enable-doc --disable-shared --disable-libada --disable-libssp --disable-nls --with-avrlibc=yes --with-mpfr=/home/toolsbuild/workspace/avr8-gnu-toolchain/avr8-gnu-toolchain-win32_x86-hostlibs --with-gmp=/home/toolsbuild/workspace/avr8-gnu-toolchain/avr8-gnu-toolchain-win32_x86-hostlibs --with-mpc=/home/toolsbuild/workspace/avr8-gnu-toolchain/avr8-gnu-toolchain-win32_x86-hostlibs --enable-win32-registry=avrtoolchain --with-pkgversion=AVR_8_bit_GNU_Toolchain_3.6.0_1734 --with-bugurl=http://www.atmel.com
+Thread model: single
+gcc version 5.4.0 (AVR_8_bit_GNU_Toolchain_3.6.0_1734) 
+COMPILER_PATH=d:/winpro~1/atmel/studio/7.0/toolch~1/avr8/avr8-g~1/bin/../libexec/gcc/avr/5.4.0/;d:/winpro~1/atmel/studio/7.0/toolch~1/avr8/avr8-g~1/bin/../libexec/gcc/;d:/winpro~1/atmel/studio/7.0/toolch~1/avr8/avr8-g~1/bin/../lib/gcc/avr/5.4.0/../../../../avr/bin/
+LIBRARY_PATH=d:/winpro~1/atmel/studio/7.0/toolch~1/avr8/avr8-g~1/bin/../lib/gcc/avr/5.4.0/;d:/winpro~1/atmel/studio/7.0/toolch~1/avr8/avr8-g~1/bin/../lib/gcc/;d:/winpro~1/atmel/studio/7.0/toolch~1/avr8/avr8-g~1/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b9e3c' '-specs=device-specs/specs-avr2'
+ d:/winpro~1/atmel/studio/7.0/toolch~1/avr8/avr8-g~1/bin/../libexec/gcc/avr/5.4.0/collect2.exe -plugin d:/winpro~1/atmel/studio/7.0/toolch~1/avr8/avr8-g~1/bin/../libexec/gcc/avr/5.4.0/liblto_plugin-0.dll -plugin-opt=d:/winpro~1/atmel/studio/7.0/toolch~1/avr8/avr8-g~1/bin/../libexec/gcc/avr/5.4.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\sd\AppData\Local\Temp\ccMIORXy.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lm -plugin-opt=-pass-through=-lc --pmem-wrap-around=8k -o cmTC_b9e3c -Ld:/winpro~1/atmel/studio/7.0/toolch~1/avr8/avr8-g~1/bin/../lib/gcc/avr/5.4.0 -Ld:/winpro~1/atmel/studio/7.0/toolch~1/avr8/avr8-g~1/bin/../lib/gcc -Ld:/winpro~1/atmel/studio/7.0/toolch~1/avr8/avr8-g~1/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib CMakeFiles/cmTC_b9e3c.dir/CMakeCXXCompilerABI.cpp.obj -lgcc -lm --start-group -lgcc -lm -lc --end-group
+make.exe[1]: Leaving directory 'C:/Users/sd/projects/AvtomotiveServo/prog/build-src-AVR-release/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(avr-ld\.exe|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: C:/Users/sd/projects/AvtomotiveServo/prog/build-src-AVR-release/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"D:/WINPRO~1/Atmel/Studio/7.0/TOOLCH~1/avr8/AVR8-G~1/bin/make.exe" "cmTC_b9e3c/fast"]
+  ignore line: [D:/WINPRO~1/Atmel/Studio/7.0/TOOLCH~1/avr8/AVR8-G~1/bin/make.exe -f CMakeFiles\cmTC_b9e3c.dir\build.make CMakeFiles/cmTC_b9e3c.dir/build]
+  ignore line: [make.exe[1]: Entering directory 'C:/Users/sd/projects/AvtomotiveServo/prog/build-src-AVR-release/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_b9e3c.dir/CMakeCXXCompilerABI.cpp.obj]
+  ignore line: [D:\WINPRO~1\Atmel\Studio\7.0\TOOLCH~1\avr8\AVR8-G~1\bin\AVR-G_~1.EXE     -o CMakeFiles\cmTC_b9e3c.dir\CMakeCXXCompilerABI.cpp.obj -c "C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeCXXCompilerABI.cpp"]
+  ignore line: [Linking CXX executable cmTC_b9e3c]
+  ignore line: ["C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_b9e3c.dir\link.txt --verbose=1]
+  ignore line: [D:\WINPRO~1\Atmel\Studio\7.0\TOOLCH~1\avr8\AVR8-G~1\bin\AVR-G_~1.EXE      -v CMakeFiles/cmTC_b9e3c.dir/CMakeCXXCompilerABI.cpp.obj  -o cmTC_b9e3c ]
+  ignore line: [Using built-in specs.]
+  ignore line: [Reading specs from d:/winpro~1/atmel/studio/7.0/toolch~1/avr8/avr8-g~1/bin/../lib/gcc/avr/5.4.0/device-specs/specs-avr2]
+  ignore line: [COLLECT_GCC=D:\WINPRO~1\Atmel\Studio\7.0\TOOLCH~1\avr8\AVR8-G~1\bin\AVR-G_~1.EXE]
+  ignore line: [COLLECT_LTO_WRAPPER=d:/winpro~1/atmel/studio/7.0/toolch~1/avr8/avr8-g~1/bin/../libexec/gcc/avr/5.4.0/lto-wrapper.exe]
+  ignore line: [Target: avr]
+  ignore line: [Configured with: /home/toolsbuild/workspace/avr8-gnu-toolchain/src/gcc/configure LDFLAGS=-L/home/toolsbuild/workspace/avr8-gnu-toolchain/avr8-gnu-toolchain-win32_x86-hostlibs/lib CPPFLAGS= --target=avr --host=i686-w64-mingw32 --build=x86_64-pc-linux-gnu --prefix=/home/toolsbuild/workspace/avr8-gnu-toolchain/avr8-gnu-toolchain-win32_x86 --libdir=/home/toolsbuild/workspace/avr8-gnu-toolchain/avr8-gnu-toolchain-win32_x86/lib --enable-languages=c,c++ --with-dwarf2 --enable-doc --disable-shared --disable-libada --disable-libssp --disable-nls --with-avrlibc=yes --with-mpfr=/home/toolsbuild/workspace/avr8-gnu-toolchain/avr8-gnu-toolchain-win32_x86-hostlibs --with-gmp=/home/toolsbuild/workspace/avr8-gnu-toolchain/avr8-gnu-toolchain-win32_x86-hostlibs --with-mpc=/home/toolsbuild/workspace/avr8-gnu-toolchain/avr8-gnu-toolchain-win32_x86-hostlibs --enable-win32-registry=avrtoolchain --with-pkgversion=AVR_8_bit_GNU_Toolchain_3.6.0_1734 --with-bugurl=http://www.atmel.com]
+  ignore line: [Thread model: single]
+  ignore line: [gcc version 5.4.0 (AVR_8_bit_GNU_Toolchain_3.6.0_1734) ]
+  ignore line: [COMPILER_PATH=d:/winpro~1/atmel/studio/7.0/toolch~1/avr8/avr8-g~1/bin/../libexec/gcc/avr/5.4.0/]
+  ignore line: [d:/winpro~1/atmel/studio/7.0/toolch~1/avr8/avr8-g~1/bin/../libexec/gcc/]
+  ignore line: [d:/winpro~1/atmel/studio/7.0/toolch~1/avr8/avr8-g~1/bin/../lib/gcc/avr/5.4.0/../../../../avr/bin/]
+  ignore line: [LIBRARY_PATH=d:/winpro~1/atmel/studio/7.0/toolch~1/avr8/avr8-g~1/bin/../lib/gcc/avr/5.4.0/]
+  ignore line: [d:/winpro~1/atmel/studio/7.0/toolch~1/avr8/avr8-g~1/bin/../lib/gcc/]
+  ignore line: [d:/winpro~1/atmel/studio/7.0/toolch~1/avr8/avr8-g~1/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b9e3c' '-specs=device-specs/specs-avr2']
+  link line: [ d:/winpro~1/atmel/studio/7.0/toolch~1/avr8/avr8-g~1/bin/../libexec/gcc/avr/5.4.0/collect2.exe -plugin d:/winpro~1/atmel/studio/7.0/toolch~1/avr8/avr8-g~1/bin/../libexec/gcc/avr/5.4.0/liblto_plugin-0.dll -plugin-opt=d:/winpro~1/atmel/studio/7.0/toolch~1/avr8/avr8-g~1/bin/../libexec/gcc/avr/5.4.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\sd\AppData\Local\Temp\ccMIORXy.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lm -plugin-opt=-pass-through=-lc --pmem-wrap-around=8k -o cmTC_b9e3c -Ld:/winpro~1/atmel/studio/7.0/toolch~1/avr8/avr8-g~1/bin/../lib/gcc/avr/5.4.0 -Ld:/winpro~1/atmel/studio/7.0/toolch~1/avr8/avr8-g~1/bin/../lib/gcc -Ld:/winpro~1/atmel/studio/7.0/toolch~1/avr8/avr8-g~1/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib CMakeFiles/cmTC_b9e3c.dir/CMakeCXXCompilerABI.cpp.obj -lgcc -lm --start-group -lgcc -lm -lc --end-group]
+    arg [d:/winpro~1/atmel/studio/7.0/toolch~1/avr8/avr8-g~1/bin/../libexec/gcc/avr/5.4.0/collect2.exe] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [d:/winpro~1/atmel/studio/7.0/toolch~1/avr8/avr8-g~1/bin/../libexec/gcc/avr/5.4.0/liblto_plugin-0.dll] ==> ignore
+    arg [-plugin-opt=d:/winpro~1/atmel/studio/7.0/toolch~1/avr8/avr8-g~1/bin/../libexec/gcc/avr/5.4.0/lto-wrapper.exe] ==> ignore
+    arg [-plugin-opt=-fresolution=C:\Users\sd\AppData\Local\Temp\ccMIORXy.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lm] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [--pmem-wrap-around=8k] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_b9e3c] ==> ignore
+    arg [-Ld:/winpro~1/atmel/studio/7.0/toolch~1/avr8/avr8-g~1/bin/../lib/gcc/avr/5.4.0] ==> dir [d:/winpro~1/atmel/studio/7.0/toolch~1/avr8/avr8-g~1/bin/../lib/gcc/avr/5.4.0]
+    arg [-Ld:/winpro~1/atmel/studio/7.0/toolch~1/avr8/avr8-g~1/bin/../lib/gcc] ==> dir [d:/winpro~1/atmel/studio/7.0/toolch~1/avr8/avr8-g~1/bin/../lib/gcc]
+    arg [-Ld:/winpro~1/atmel/studio/7.0/toolch~1/avr8/avr8-g~1/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib] ==> dir [d:/winpro~1/atmel/studio/7.0/toolch~1/avr8/avr8-g~1/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib]
+    arg [CMakeFiles/cmTC_b9e3c.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lm] ==> lib [m]
+    arg [--start-group] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lm] ==> lib [m]
+    arg [-lc] ==> lib [c]
+    arg [--end-group] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc]
+  collapse library dir [d:/winpro~1/atmel/studio/7.0/toolch~1/avr8/avr8-g~1/bin/../lib/gcc/avr/5.4.0] ==> [D:/Win Programs/Atmel/Studio/7.0/toolchain/avr8/avr8-gnu-toolchain/lib/gcc/avr/5.4.0]
+  collapse library dir [d:/winpro~1/atmel/studio/7.0/toolch~1/avr8/avr8-g~1/bin/../lib/gcc] ==> [D:/Win Programs/Atmel/Studio/7.0/toolchain/avr8/avr8-gnu-toolchain/lib/gcc]
+  collapse library dir [d:/winpro~1/atmel/studio/7.0/toolch~1/avr8/avr8-g~1/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib] ==> [D:/Win Programs/Atmel/Studio/7.0/toolchain/avr8/avr8-gnu-toolchain/avr/lib]
+  implicit libs: [m;m;c]
+  implicit dirs: [D:/Win Programs/Atmel/Studio/7.0/toolchain/avr8/avr8-gnu-toolchain/lib/gcc/avr/5.4.0;D:/Win Programs/Atmel/Studio/7.0/toolchain/avr8/avr8-gnu-toolchain/lib/gcc;D:/Win Programs/Atmel/Studio/7.0/toolchain/avr8/avr8-gnu-toolchain/avr/lib]
+  implicit fwks: []
+
+
+
+
+Detecting CXX [-std=c++1z] compiler features compiled with the following output:
+Change Dir: C:/Users/sd/projects/AvtomotiveServo/prog/build-src-AVR-release/CMakeFiles/CMakeTmp
+
+Run Build Command:"D:/WINPRO~1/Atmel/Studio/7.0/TOOLCH~1/avr8/AVR8-G~1/bin/make.exe" "cmTC_22651/fast"
+D:/WINPRO~1/Atmel/Studio/7.0/TOOLCH~1/avr8/AVR8-G~1/bin/make.exe -f CMakeFiles\cmTC_22651.dir\build.make CMakeFiles/cmTC_22651.dir/build
+make.exe[1]: Entering directory 'C:/Users/sd/projects/AvtomotiveServo/prog/build-src-AVR-release/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_22651.dir/feature_tests.cxx.obj
+D:\WINPRO~1\Atmel\Studio\7.0\TOOLCH~1\avr8\AVR8-G~1\bin\AVR-G_~1.EXE    -std=c++1z -o CMakeFiles\cmTC_22651.dir\feature_tests.cxx.obj -c C:\Users\sd\projects\AvtomotiveServo\prog\build-src-AVR-release\CMakeFiles\feature_tests.cxx
+Linking CXX executable cmTC_22651
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_22651.dir\link.txt --verbose=1
+D:\WINPRO~1\Atmel\Studio\7.0\TOOLCH~1\avr8\AVR8-G~1\bin\AVR-G_~1.EXE       CMakeFiles/cmTC_22651.dir/feature_tests.cxx.obj  -o cmTC_22651 
+make.exe[1]: Leaving directory 'C:/Users/sd/projects/AvtomotiveServo/prog/build-src-AVR-release/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++14] compiler features compiled with the following output:
+Change Dir: C:/Users/sd/projects/AvtomotiveServo/prog/build-src-AVR-release/CMakeFiles/CMakeTmp
+
+Run Build Command:"D:/WINPRO~1/Atmel/Studio/7.0/TOOLCH~1/avr8/AVR8-G~1/bin/make.exe" "cmTC_59010/fast"
+D:/WINPRO~1/Atmel/Studio/7.0/TOOLCH~1/avr8/AVR8-G~1/bin/make.exe -f CMakeFiles\cmTC_59010.dir\build.make CMakeFiles/cmTC_59010.dir/build
+make.exe[1]: Entering directory 'C:/Users/sd/projects/AvtomotiveServo/prog/build-src-AVR-release/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_59010.dir/feature_tests.cxx.obj
+D:\WINPRO~1\Atmel\Studio\7.0\TOOLCH~1\avr8\AVR8-G~1\bin\AVR-G_~1.EXE    -std=c++14 -o CMakeFiles\cmTC_59010.dir\feature_tests.cxx.obj -c C:\Users\sd\projects\AvtomotiveServo\prog\build-src-AVR-release\CMakeFiles\feature_tests.cxx
+Linking CXX executable cmTC_59010
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_59010.dir\link.txt --verbose=1
+D:\WINPRO~1\Atmel\Studio\7.0\TOOLCH~1\avr8\AVR8-G~1\bin\AVR-G_~1.EXE       CMakeFiles/cmTC_59010.dir/feature_tests.cxx.obj  -o cmTC_59010 
+make.exe[1]: Leaving directory 'C:/Users/sd/projects/AvtomotiveServo/prog/build-src-AVR-release/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++11] compiler features compiled with the following output:
+Change Dir: C:/Users/sd/projects/AvtomotiveServo/prog/build-src-AVR-release/CMakeFiles/CMakeTmp
+
+Run Build Command:"D:/WINPRO~1/Atmel/Studio/7.0/TOOLCH~1/avr8/AVR8-G~1/bin/make.exe" "cmTC_e043c/fast"
+D:/WINPRO~1/Atmel/Studio/7.0/TOOLCH~1/avr8/AVR8-G~1/bin/make.exe -f CMakeFiles\cmTC_e043c.dir\build.make CMakeFiles/cmTC_e043c.dir/build
+make.exe[1]: Entering directory 'C:/Users/sd/projects/AvtomotiveServo/prog/build-src-AVR-release/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e043c.dir/feature_tests.cxx.obj
+D:\WINPRO~1\Atmel\Studio\7.0\TOOLCH~1\avr8\AVR8-G~1\bin\AVR-G_~1.EXE    -std=c++11 -o CMakeFiles\cmTC_e043c.dir\feature_tests.cxx.obj -c C:\Users\sd\projects\AvtomotiveServo\prog\build-src-AVR-release\CMakeFiles\feature_tests.cxx
+Linking CXX executable cmTC_e043c
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_e043c.dir\link.txt --verbose=1
+D:\WINPRO~1\Atmel\Studio\7.0\TOOLCH~1\avr8\AVR8-G~1\bin\AVR-G_~1.EXE       CMakeFiles/cmTC_e043c.dir/feature_tests.cxx.obj  -o cmTC_e043c 
+make.exe[1]: Leaving directory 'C:/Users/sd/projects/AvtomotiveServo/prog/build-src-AVR-release/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++98] compiler features compiled with the following output:
+Change Dir: C:/Users/sd/projects/AvtomotiveServo/prog/build-src-AVR-release/CMakeFiles/CMakeTmp
+
+Run Build Command:"D:/WINPRO~1/Atmel/Studio/7.0/TOOLCH~1/avr8/AVR8-G~1/bin/make.exe" "cmTC_f95bb/fast"
+D:/WINPRO~1/Atmel/Studio/7.0/TOOLCH~1/avr8/AVR8-G~1/bin/make.exe -f CMakeFiles\cmTC_f95bb.dir\build.make CMakeFiles/cmTC_f95bb.dir/build
+make.exe[1]: Entering directory 'C:/Users/sd/projects/AvtomotiveServo/prog/build-src-AVR-release/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f95bb.dir/feature_tests.cxx.obj
+D:\WINPRO~1\Atmel\Studio\7.0\TOOLCH~1\avr8\AVR8-G~1\bin\AVR-G_~1.EXE    -std=c++98 -o CMakeFiles\cmTC_f95bb.dir\feature_tests.cxx.obj -c C:\Users\sd\projects\AvtomotiveServo\prog\build-src-AVR-release\CMakeFiles\feature_tests.cxx
+Linking CXX executable cmTC_f95bb
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_f95bb.dir\link.txt --verbose=1
+D:\WINPRO~1\Atmel\Studio\7.0\TOOLCH~1\avr8\AVR8-G~1\bin\AVR-G_~1.EXE       CMakeFiles/cmTC_f95bb.dir/feature_tests.cxx.obj  -o cmTC_f95bb 
+make.exe[1]: Leaving directory 'C:/Users/sd/projects/AvtomotiveServo/prog/build-src-AVR-release/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:0cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:0cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:0cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:0cxx_default_function_template_args
+    Feature record: CXX_FEATURE:0cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:0cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:0cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:0cxx_explicit_conversions
+    Feature record: CXX_FEATURE:0cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:0cxx_extern_templates
+    Feature record: CXX_FEATURE:0cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:0cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_local_type_template_args
+    Feature record: CXX_FEATURE:0cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:0cxx_nullptr
+    Feature record: CXX_FEATURE:0cxx_override
+    Feature record: CXX_FEATURE:0cxx_range_for
+    Feature record: CXX_FEATURE:0cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:0cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:0cxx_static_assert
+    Feature record: CXX_FEATURE:0cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:0cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:0cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:0cxx_variadic_macros
+    Feature record: CXX_FEATURE:0cxx_variadic_templates

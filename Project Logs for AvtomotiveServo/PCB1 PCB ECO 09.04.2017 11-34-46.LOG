@@ -1,0 +1,22 @@
+Removed Pin From Net: NetName=MP1 Pin=T1-2
+Removed Pin From Net: NetName=Vcc Pin=T1-3
+Removed Pin From Net: NetName=MP1 Pin=T2-2
+Removed Pin From Net: NetName=PGND Pin=T2-3
+Removed Pin From Net: NetName=MP2 Pin=T3-2
+Removed Pin From Net: NetName=Vcc Pin=T3-3
+Removed Pin From Net: NetName=MP2 Pin=T4-2
+Removed Pin From Net: NetName=PGND Pin=T4-3
+Change Component Comment : Designator=T1 Old Comment=FR5305 New Comment=IRFR5305
+Change Component Comment : Designator=T3 Old Comment=FR5305 New Comment=IRFR5305
+Change Component Comment : Designator=T2 Old Comment=LR2905 New Comment=IRLR2905
+Change Component Comment : Designator=T4 Old Comment=LR2905 New Comment=IRLR2905
+Added Pin To Net: NetName=Vcc Pin=T1-2
+Added Pin To Net: NetName=MP1 Pin=T1-3
+Added Pin To Net: NetName=PGND Pin=T2-2
+Added Pin To Net: NetName=MP1 Pin=T2-3
+Added Pin To Net: NetName=Vcc Pin=T3-2
+Added Pin To Net: NetName=MP2 Pin=T3-3
+Added Pin To Net: NetName=PGND Pin=T4-2
+Added Pin To Net: NetName=MP2 Pin=T4-3
+Added Pin To Net: NetName=SigIn Pin=U1-30
+Added Pin To Net: NetName=SigIn Pin=U1-32

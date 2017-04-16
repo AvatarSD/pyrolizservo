@@ -1,0 +1,3 @@
+C:/Users/sd/projects/AvtomotiveServo/prog/build-src-AVR-release/CMakeFiles/AvtomotiveServo.dir
+C:/Users/sd/projects/AvtomotiveServo/prog/build-src-AVR-release/CMakeFiles/edit_cache.dir
+C:/Users/sd/projects/AvtomotiveServo/prog/build-src-AVR-release/CMakeFiles/rebuild_cache.dir
